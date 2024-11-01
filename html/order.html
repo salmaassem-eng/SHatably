@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/order.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <title>ORDER</title>
+</head>
+<body>
+    <div class="shatably">
+        <a href="default.html" style="color: white;">SHATABLY</a>
+    </div>
+    <div class="card">
+        <p class="p1">Card Details</p>
+        <img src="../images/ch1.png" class="pimg"/>
+        <p class="p2">Card Type</p>
+
+        <button class="div1" >
+            <img src="../images/img1.png" alt="photo" style="width: 80%;height:85%;top: 5%;left: 8%;position: absolute">
+        </button>
+        <button class="div2">
+            <img src="../images/img2.png" alt="photo" style="width: 80%;height:85%;top: 5%;left: 8%;position: absolute">
+        </button>
+        <button class="div3">
+            <img src="../images/img3.png" alt="photo" style="width: 80%;height:85%;top: 5%;left: 10%;position: absolute">
+        </button>
+        <button class="div4">
+            <img src="../images/img4.png" alt="photo" style="width: 60%;height:65%;top: 15%;left: 18%;position: absolute">
+        </button>
+
+
+
+        <label for="name" class="p3">Email</label>
+        <input name="name" type="email" class="input1" placeholder=" Your email here"/>
+
+        <label for="num" class="p4">Card Number</label>
+        <input name="num" type="text" class="input2"   placeholder=" number here"/>
+
+        <label for="date" class="p5">Expiration Date</label>
+        <input name="date" type="datetime" class="input3"   placeholder="  00/00/0000"/>
+
+        <label for="cvv" class="p6">CVV</label>
+        <input name="cvv" type="number" class="input4" placeholder=" 000 "/>
+
+        <hr style="position: relative; background-color: #1d1c1a; width: 90%;top: -16%;border: 0.01px solid #1d1c1a; opacity: 0.1;">
+        <p class="p7">Items</p>
+        <p style="position: relative; ; top: -22%; font-weight: 700;font-size: 15px;padding-left: 420px;"id="num">0</p>
+        <p class="p8">Total (tax incI.)</p>
+        <p style="position: relative;  top: -27%; font-weight: 700; font-size: 15px; padding-left: 400px;"id="total1">0$</p>
+
+        <button class="butt" ><pre><span id="total2">0$</span>                check out <img src="../images/go.png" style="width:6%; height: 6%;"></pre> </button>
+    </div>
+
+    
+    <div class="main">
+        <div class="text-N1">
+            SHOPPING CART
+        </div>
+
+        <div class="text-N2">
+          Y&nbsp;O&nbsp;U &nbsp;&nbsp;&nbsp; H&nbsp;A&nbsp;V&nbsp;E&nbsp;&nbsp;&nbsp; 4 &nbsp;&nbsp;&nbsp;I&nbsp;T&nbsp;E&nbsp;M&nbsp;S&nbsp;&nbsp;&nbsp; 
+          I&nbsp;N&nbsp;&nbsp;&nbsp; Y&nbsp;O&nbsp;U&nbsp;R &nbsp;&nbsp;&nbsp;C&nbsp;A&nbsp;R&nbsp;T
+        </div>
+        </div>
+
+        <div class="carp">
+            <img src="../images/carp.png" alt="" class="img">
+            <p class="txt">C&nbsp;A&nbsp;R&nbsp;P&nbsp;E&nbsp;N&nbsp;T&nbsp; E&nbsp; R&nbsp;Y <br> P&nbsp;A&nbsp;C&nbsp;K&nbsp;A&nbsp;G&nbsp;E</p>
+            <span id="counter1" class="cnt1">X0</span>
+            <button onclick="increment1()" class="btn1-1">+</button>
+            <button onclick="decrement1()" class="btn1-2">-</button>
+            <span class="price" id="p1">0$</span>
+        </div>
+
+        <div class="pow">
+            <img src="../images/power.png" alt="" class="img">
+            <p class="txt">P&nbsp;O&nbsp;W&nbsp;E&nbsp;R <br> P&nbsp;A&nbsp;C&nbsp;K&nbsp;A&nbsp;G&nbsp;E</p>
+            <span id="counter2" class="cnt1">X0</span>
+            <button onclick="increment2()" class="btn1-1">+</button>
+            <button onclick="decrement2()" class="btn1-2">-</button>
+            <span class="price" id="p2">0$</span>
+        </div>
+        
+    
+        <div class="paint">
+            <img src="../images/paint.png" alt="" class="img">
+            <p class="txt">P&nbsp;A&nbsp;I&nbsp;N&nbsp;T&nbsp;I&nbsp;N&nbsp;G <br> P&nbsp;A&nbsp;C&nbsp;K&nbsp;A&nbsp;G&nbsp;E</p>
+            <span id="counter3"  class="cnt1">X0</span>
+            <button onclick="increment3()" class="btn1-1">+</button>
+            <button onclick="decrement3()" class="btn1-2">-</button>
+            <span class="price" id="p3">0$</span>
+        </div>
+
+        <div class="plum">
+            <img src="../images/plam.png" alt="" class="img">
+            <p class="txt">P&nbsp;L&nbsp;U&nbsp;M&nbsp;B&nbsp;I&nbsp;N&nbsp;G <br> P&nbsp;A&nbsp;C&nbsp;K&nbsp;A&nbsp;G&nbsp;E</p>
+            <span id="counter4" class="cnt1">X0</span>
+            <button onclick="increment4()" class="btn1-1">+</button>
+            <button onclick="decrement4()" class="btn1-2">-</button>
+            <span class="price" id="p4">0$</span>
+                </div>
+        </div> 
+
+        
+
+
+    </div>
+   
+    <script>
+      let counter1 = 0; // تعيين العداد إلى القيمة الافتراضية 0
+      let counter2 = 0;
+      let counter3 = 0;
+      let counter4 = 0;
+      var x1=0;
+      var x2=0;
+      var x3=0;
+      var x4=0;
+      
+      function increment1() {
+        counter1++;
+         x1++;
+        document.getElementById("counter1").innerHTML = "X"+counter1; 
+        document.getElementById("p1").innerHTML =counter1*50+"$"; 
+        document.getElementById("total1").innerHTML =counter1*50+counter2*65+counter3*80+counter4*95+"$";
+        document.getElementById("total2").innerHTML =counter1*50+counter2*65+counter3*80+counter4*95+"$";
+        document.getElementById("num").innerHTML =x1+x2+x3+x4;
+      }
+  
+      function decrement1() {
+        counter1--; 
+        x1--;
+        
+       if(counter1<=0)
+       {
+          counter1=0;
+          x1=0;
+       }
+        document.getElementById("counter1").innerHTML ="X"+counter1;
+        document.getElementById("p1").innerHTML =counter1*50+"$";  
+        document.getElementById("total1").innerHTML =counter1*50+counter2*65+counter3*80+counter4*95+"$";
+        document.getElementById("total2").innerHTML =counter1*50+counter2*65+counter3*80+counter4*95+"$";
+        document.getElementById("num").innerHTML =x1+x2+x3+x4;
+  
+      }
+  
+  
+        function increment2() {
+        counter2++; 
+        x2++;
+        document.getElementById("counter2").innerHTML = "X"+counter2; 
+        document.getElementById("p2").innerHTML =counter2*65+"$";  
+        document.getElementById("total1").innerHTML =counter1*50+counter2*65+counter3*80+counter4*95+"$";
+        document.getElementById("total2").innerHTML =counter1*50+counter2*65+counter3*80+counter4*95+"$";
+        document.getElementById("num").innerHTML =x1+x2+x3+x4;
+      }
+  
+      function decrement2() {
+        counter2--; 
+        x2--;
+        
+        if(counter2<=0)
+       {
+          counter2=0;
+          x2=0;
+  
+       }
+        document.getElementById("counter2").innerHTML = "X"+counter2; 
+        document.getElementById("p2").innerHTML =counter2*65+"$";  
+        document.getElementById("total1").innerHTML =counter1*50+counter2*65+counter3*80+counter4*95+"$";
+        document.getElementById("total2").innerHTML =counter1*50+counter2*65+counter3*80+counter4*95+"$";
+        document.getElementById("num").innerHTML =x1+x2+x3+x4;
+      }
+      
+  
+      function increment3() {
+        counter3++; 
+       
+        x3++;
+  
+        document.getElementById("counter3").innerHTML = "X"+counter3; 
+        document.getElementById("p3").innerHTML =counter3*80+"$";  
+        document.getElementById("total1").innerHTML =counter1*50+counter2*65+counter3*80+counter4*95+"$";
+        document.getElementById("total2").innerHTML =counter1*50+counter2*65+counter3*80+counter4*95+"$";
+        document.getElementById("num").innerHTML =x1+x2+x3+x4;
+        
+        
+      }
+  
+      function decrement3() {
+        counter3--; 
+        x3--;
+        
+        if(counter3<=0)
+       {
+          counter3=0;
+          x3=0;
+       }
+        document.getElementById("counter3").innerHTML = "X"+counter3; 
+        document.getElementById("p3").innerHTML =counter3*80+"$";  
+        document.getElementById("total1").innerHTML =counter1*50+counter2*65+counter3*80+counter4*95+"$";
+        document.getElementById("total2").innerHTML =counter1*50+counter2*65+counter3*80+counter4*95+"$";
+        document.getElementById("num").innerHTML =x1+x2+x3+x4;
+      }
+      
+  
+  
+      function increment4() {
+        counter4++;
+        x4++;
+        
+        
+        document.getElementById("counter4").innerHTML = "X"+counter4; 
+        document.getElementById("p4").innerHTML =counter4*95+"$";  
+        document.getElementById("total1").innerHTML =counter1*50+counter2*65+counter3*80+counter4*95+"$";
+        document.getElementById("total2").innerHTML =counter1*50+counter2*65+counter3*80+counter4*95+"$";
+        document.getElementById("num").innerHTML =x1+x2+x3+x4;
+      }
+      
+  
+      function decrement4() {
+        counter4--; 
+        x4--;
+        
+        if(counter4<=0)
+       {
+          counter4=0;
+          x4=0;
+  
+       }
+        document.getElementById("counter4").innerHTML = "X"+counter4; 
+        document.getElementById("p4").innerHTML =counter4*95+"$"; 
+         document.getElementById("total1").innerHTML =counter1*50+counter2*65+counter3*80+counter4*95+"$";
+         document.getElementById("total2").innerHTML =counter1*50+counter2*65+counter3*80+counter4*95+"$";
+         document.getElementById("num").innerHTML =x1+x2+x3+x4;
+      }
+      
+      
+  
+  </script>
+</body>
+</html>

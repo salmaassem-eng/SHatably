@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="SHATABLY The Faster You Fill Up, The Faster Your Job Done">
+    <link rel="stylesheet" href="../css/services.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <title>Our Services</title>
+    <link rel="icon" href="../images/logo.png">
+</head>
+<body>
+    <div class="allpage">
+        <!--put all images 
+
+        <button onclick="prevImage()" class="button1"></button>
+        <button onclick="nextImage()" class="button2"></button> 
+
+-->    
+
+    <!-- TEXT NO.1 -->
+    <div class="div1-1">
+        C A R P E N T R Y<br>
+        S E R V I C E 
+    </div>
+
+    <!-- TEXT NO.2 -->
+    <div class="div1-2">
+
+        Everything related to carpentry work and installation as<br>
+        soon as possible and the best quality.
+    </div>
+
+    <div class="a4">
+        02 <hr>
+    </div>
+
+
+        <img id="myImage" src="../images/image2.jpg">
+
+
+        <!-- round button in bottom-->
+        <a href="service3.html"> <button class="button1">&gt;</button></a>
+        <a href="service1.html"><button class="button2">&lt;</button></a>
+        <a href="follow.html"><p class="follow">FOLLOW US</p></a>
+        <a href="contact-us.html"> <p class="contact">CONTACTS</p></a>
+
+        <!-- round bottons -->
+
+        <a href="shop.html"><button class="div1-3">&gt;</button></a>
+        <a href="default.html"><button class="div1-4">&lt;</button></a>
+
+
+    </div>
+
+
+    <div class="div3">
+        <div class="div3-1">
+            <div class="div3-1-1">
+                <p>Shatably</p>
+            </div>
+
+
+            <div class="div3-2">
+                <button onclick="toggleMenu()" id="menuButton">MENU</button>
+                
+                <div id="side-menu">
+                    <a href="default.html" >HOME</a>
+                    <a href="service1.html">OUR SERVICES</a>
+                    <a href="shop.html">SHOP</a>
+                    <a href="workers.html">WORKERS</a>
+                    <a href="profile.html">PROFILE</a>
+                    <a href="login.html">LOG OUT</a>
+                </div>
+
+                <a href="default.html" class="home">H O M E</a>
+                <a href="service1.html" class="serve"><pre>O U R  S E R V I C E</pre></a>
+                <a href="shop.html" class="shop">S H O P</a>
+                <a href="workers.html" class="work">W O R K E R S</a>
+                <a href="profile.html" class="prof">P R O F I L E</a>
+
+
+            </div>
+
+        </div>
+    </div>
+   
+    <script>
+       /*
+         function toggleMenu() {
+            var menu = document.getElementById("side-menu");
+            if (menu.style.right === "0px") {
+                menu.style.right = "-200px";    /* slide offscreen
+            } else {
+                menu.style.right = "0px";    /* slide onscreen 
+            }
+          }  
+
+          var images = ["images/image1.jpg", "images/image2.jpg", "images/image3.jpg", "images/image4.jpg"];
+        var currentImage = 0;
+
+        function prevImage() {
+            currentImage--;
+            if (currentImage < 0) {
+                currentImage = images.length - 1;
+            }
+            var image = document.getElementById("myImage");
+            image.src = images[currentImage];
+        }
+
+        function nextImage() {
+            currentImage++;
+            if (currentImage >= images.length) {
+                currentImage = 0;
+            }
+            var image = document.getElementById("myImage");
+            image.src = images[currentImage];
+        }
+*/
+
+function toggleMenu() {
+            var menu = document.getElementById("side-menu");
+            if (menu.style.right === "0px") {
+                menu.style.right = "-300px"; 
+            } else {
+                menu.style.right = "0px"; 
+            }
+        }
+        </script>
+</body>
+</html>

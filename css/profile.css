@@ -1,0 +1,1192 @@
+
+
+
+
+.div1 {
+    background-color: #dbd5c8;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center
+        /* border: 3px solid #73AD21; */
+}
+
+
+::selection{
+    color: #D1bb84;
+  }
+
+.div3 {
+
+
+    position: fixed;
+    top: 10%;
+    left: 0px;
+    width: 100%;
+    height: 10%;
+
+    text-align: center
+}
+
+.div3-1 {
+
+
+    position: fixed;
+
+    top: 0;
+    left: 0px;
+    width: 25%;
+    height: 10%;
+    background-color: #dbd5c8;
+    text-align: center
+}
+
+.div3-1-1 {
+
+    position: relative;
+    color: #000000;
+    font-size: 25px;
+    top: -5px;
+    font-family: 'aorell';
+    right: 5%;
+    text-align: center
+}
+
+
+
+
+.home {
+    color: #1d1c1a;
+
+
+    position: relative;
+    text-decoration: none;
+    float: left;
+
+    top: -49px;
+    left: 130%;
+    font-size: 15px;
+    display: grid;
+    font-family: "lato";
+    font-weight: 399;
+
+    /* height: 100vh; */
+    place-items: center;
+
+}
+
+
+.home:hover {
+    color: #000000;
+    font-weight: 900;
+    text-shadow: 2px 4px 4px rgba(47, 48, 48, 0.6)
+}
+
+.home:active {
+    color: #000000;
+    font-weight: 900
+}
+
+.serve pre {
+    color: #1d1c1a;
+    position: relative;
+    text-decoration: none;
+    float: left;
+    opacity: 1;
+    top: -64px;
+    left: 155%;
+    font-size: 15px;
+    display: grid;
+    font-family: "lato";
+
+    font-weight: 399;
+    /* height: 100vh; */
+    place-items: center;
+
+}
+
+.serve :hover {
+    color: #000000;
+    font-weight: 900;
+    text-shadow: 2px 4px 4px rgba(47, 48, 48, 0.6)
+}
+
+
+.shop {
+    color: #000000;
+    position: relative;
+    text-decoration: none;
+    float: left;
+
+    top: -50px;
+    left: 180%;
+    font-size: 15px;
+    display: grid;
+    font-family: "lato";
+
+    font-weight: 399;
+    /* height: 100vh; */
+    place-items: center;
+
+
+}
+
+.shop:hover {
+    color: #000000;
+    font-weight: 900;
+    text-shadow: 2px 4px 4px rgba(47, 48, 48, 0.6)
+}
+
+
+.work {
+    color: #1d1c1a;
+
+    position: relative;
+    text-decoration: none;
+    float: left;
+
+    top: -50px;
+    left: 200%;
+    font-size: 15px;
+    display: grid;
+    font-family: "lato";
+
+    font-weight: 399;
+    /* height: 100vh; */
+    place-items: center;
+
+
+}
+
+.work:hover {
+    color: #000000;
+    font-weight: 900;
+    text-shadow: 2px 4px 4px rgba(47, 48, 48, 0.6)
+}
+
+
+
+.prof {
+    color: #1d1c1a;
+
+    position: relative;
+    text-decoration: none;
+    float: left;
+
+    top: -68px;
+    left: 260%;
+    font-size: 15px;
+    display: grid;
+    font-family: "lato";
+
+    font-weight: 700;
+    /* height: 100vh; */
+    place-items: center;
+
+
+}
+
+.prof:hover {
+    color: #000000;
+    font-weight: 900;
+    text-shadow: 2px 4px 4px rgba(47, 48, 48, 0.6)
+}
+
+
+.img1 {
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    top: 11%;
+    left: 10%;
+    border: 4px solid burlywood;
+    border-radius: 100%;
+
+
+}
+
+.pr {
+    position: fixed;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 17px;
+    top: 18%;
+    left: 20%;
+    font-family: "lato";
+}
+
+.pen {
+
+    position: relative;
+    height: 22px;
+    width: 22px;
+    top: 745%;
+    left: -33%;
+
+
+}
+
+.inputs {
+    position: relative;
+}
+
+
+
+
+
+.fname{
+
+    width: 25%;
+    height: 48px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #dbd5c8;
+    position: absolute;
+    TOP: 270px;
+    left: 250px;
+
+    font-size: 120%;
+}
+
+
+
+
+
+.lname{
+
+    width: 25%;
+    height: 48px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #dbd5c8;
+    position: absolute;
+    TOP: 270px;
+    left: 850px;
+
+    font-size: 120%;
+}
+
+
+
+input[type=email],
+select {
+
+    width: 25%;
+    height: 48px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #dbd5c8;
+    position: absolute;
+    TOP:400px;
+    left: 850px;
+
+    font-size: 120%;
+}
+
+input[type=number],
+select {
+
+    width: 25%;
+    height: 48px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #dbd5c8;
+    position: absolute;
+    TOP:400px;
+    left: 250px;
+
+    font-size: 120%;
+}
+
+input[type=password],
+select {
+
+    width: 25%;
+    height: 48px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #dbd5c8;
+    position: absolute;
+    TOP:520px;
+    left: 250px;
+
+    font-size: 120%;
+}
+
+
+
+
+
+.save {
+   
+
+
+    position: relative;
+    top: 50px;
+    right: -390px;
+    border-radius: 70px 70px 70px 70px;
+    font-size: 10px;
+    font-family: "lato";
+    transition-duration: 0.4s;
+   
+  }
+  
+  .save {
+    background-color: #dbd5c8;
+    border:8px, rgb(0, 0, 0) ;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    width: 150px;
+    text-align: center;
+   
+  }
+  
+  .save:hover {
+  
+    background-color: #c3c0b8;
+   
+  }
+.fn{
+    position: absolute;
+    TOP: 240px;
+    left: 250px;
+}
+
+.ln{
+    position: absolute;
+    TOP: 240px;
+    right: 600px;
+}
+.ph{
+    position: absolute;
+    TOP: 370px;
+    left: 250px;
+}
+.pas{
+    position: absolute;
+    TOP: 490px;
+    left: 250px;
+}
+
+
+.em{
+    position: absolute;
+    TOP: 370px;
+    right: 630px;
+}
+
+
+.txt{
+    position: relative;
+    font-family: "LATO";
+    font-size: 15px;
+        opacity: 0.6;
+        TOP: 29%;
+        left:-27.5%;
+}
+
+
+@media screen and (max-width:768px)
+{
+    .div1 {
+        background-color: #dbd5c8;
+        position: absolute;
+        top: 0;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+        text-align: center
+            /* border: 3px solid #73AD21; */
+    }
+    
+    
+    
+    
+    .div3 {
+    
+    
+        position: fixed;
+        top: 10%;
+        left: 0px;
+        width: 100%;
+        height: 10%;
+    
+        text-align: center
+    }
+    
+    .div3-1 {
+    
+    
+        position: fixed;
+    
+        top: 0;
+        left: 0px;
+        width: 25%;
+        height: 10%;
+        background-color: #dbd5c8;
+        text-align: center
+    }
+    
+    .div3-1-1 {
+    
+        position: relative;
+        color: #000000;
+        font-size: 25px;
+        top: -5px;
+        font-family: 'aorell';
+        right: 5%;
+        text-align: center
+    }
+    
+    
+    
+    
+    .home {
+        color: #1d1c1a;
+    
+    
+        position: relative;
+        text-decoration: none;
+        float: left;
+    
+        top: 5px;
+        left: 40%;
+        font-size: 15px;
+        display: grid;
+        font-family: "lato";
+        font-weight: 399;
+    
+        /* height: 100vh; */
+        place-items: center;
+    
+    }
+    
+    
+    .home:hover {
+        color: #000000;
+        font-weight: 900;
+    }
+    
+    .home:active {
+        color: #000000;
+        font-weight: 900
+    }
+    
+    .serve pre {
+        color: #1d1c1a;
+        position: relative;
+        text-decoration: none;
+        float: left;
+        opacity: 1;
+        top: -10px;
+        left: 55%;
+        font-size: 15px;
+        display: grid;
+        font-family: "lato";
+    
+        font-weight: 399;
+        /* height: 100vh; */
+        place-items: center;
+    
+    }
+    
+    .serve :hover {
+        color: #000000;
+        font-weight: 900;
+    }
+    
+    
+    .shop {
+        color: #000000;
+        position: relative;
+        text-decoration: none;
+        float: left;
+    
+        top: -45px;
+        left: 160%;
+        font-size: 15px;
+        display: grid;
+        font-family: "lato";
+    
+        font-weight: 399;
+        /* height: 100vh; */
+        place-items: center;
+    
+    
+    }
+    
+    .shop:hover {
+        color: #000000;
+        font-weight: 900;
+    }
+    
+    
+    .work {
+        color: #1d1c1a;
+    
+        position: relative;
+        text-decoration: none;
+        float: left;
+    
+        top: -45px;
+        left: 170%;
+        font-size: 15px;
+        display: grid;
+        font-family: "lato";
+    
+        font-weight: 399;
+        /* height: 100vh; */
+        place-items: center;
+    
+    
+    }
+    
+    .work:hover {
+        color: #000000;
+        font-weight: 900;
+    }
+    
+    
+    
+    .prof {
+        color: #1d1c1a;
+    
+        position: relative;
+        text-decoration: none;
+        float: left;
+    
+        top: -65px;
+        left: 260%;
+        font-size: 15px;
+        display: grid;
+        font-family: "lato";
+    
+        font-weight: 700;
+        /* height: 100vh; */
+        place-items: center;
+    
+    
+    }
+    
+    .prof:hover {
+        color: #000000;
+        font-weight: 900;
+    }
+    
+    
+    .img1 {
+        position: fixed;
+        height: 100px;
+        width: 100px;
+        top: 11%;
+        left: 10%;
+        border: 4px solid burlywood;
+        border-radius: 100%;
+    
+    
+    }
+    
+    .pr {
+        position: fixed;
+        color: rgb(0, 0, 0);
+        font-weight: 500;
+        font-size: 17px;
+        top: 15%;
+        left: 25%;
+        font-family: "lato";
+    }
+    
+    .pen {
+    
+        position: relative;
+        height: 30px;
+        width: 30px;
+        top: 560%;
+        left: -32%;
+    
+    
+    }
+    
+    .inputs {
+        position: relative;
+    }
+    
+    
+    
+    
+    
+    .fname{
+    
+        width: 25%;
+        height: 48px;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: #dbd5c8;
+        position: absolute;
+        TOP: 270px;
+        left: 140px;
+    
+        font-size: 120%;
+    }
+    
+    
+    
+    
+    
+    .lname{
+    
+        width: 25%;
+        height: 48px;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: #dbd5c8;
+        position: absolute;
+        TOP: 270px;
+        left: 450px;
+    
+        font-size: 120%;
+    }
+    
+    
+    
+    input[type=email],
+    select {
+    
+        width: 25%;
+        height: 48px;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: #dbd5c8;
+        position: absolute;
+        TOP:400px;
+        left: 450px;
+    
+        font-size: 120%;
+    }
+    
+    input[type=number],
+    select {
+    
+        width: 25%;
+        height: 48px;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: #dbd5c8;
+        position: absolute;
+        TOP:400px;
+        left: 140px;
+    
+        font-size: 120%;
+    }
+    
+    input[type=password],
+    select {
+    
+        width: 25%;
+        height: 48px;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: #dbd5c8;
+        position: absolute;
+        TOP:520px;
+        left: 140px;
+    
+        font-size: 120%;
+    }
+    
+    
+    
+    
+    
+    .save {
+       
+    
+    
+        position: relative;
+        top: 50px;
+        right: -200px;
+        border-radius: 70px 70px 70px 70px;
+        font-size: 10px;
+        font-family: "lato";
+        transition-duration: 0.4s;
+       
+      }
+      
+      .save {
+        background-color: #dbd5c8;
+        border:8px, rgb(0, 0, 0) ;
+        color: rgb(0, 0, 0);
+        height: 40px;
+        width: 150px;
+        text-align: center;
+       
+      }
+      
+      .save:hover {
+      
+        background-color: #c3c0b8;
+       
+      }
+    .fn{
+        position: absolute;
+        TOP: 240px;
+        left: 140px;
+    }
+    
+    .ln{
+        position: absolute;
+        TOP: 220px;
+        left: 450px;
+    }
+    .ph{
+        position: absolute;
+        TOP: 370px;
+        left: 140px;
+    }
+    .pas{
+        position: absolute;
+        TOP: 490px;
+        left: 140px;
+    }
+    
+    
+    .em{
+        position: absolute;
+        TOP: 350px;
+        left: 450px;
+    }
+    
+    
+    .txt{
+        position: relative;
+        font-family: "LATO";
+        font-size: 15px;
+            opacity: 0.6;
+            TOP: 25%;
+            left: -24%;
+    }
+}
+
+
+@media screen and (max-width:410px)
+{
+
+    .div1 {
+        background-color: #dbd5c8;
+        position: absolute;
+        top: 0;
+        right: 0px;
+        width: 100%;
+        height: 150%;
+        text-align: center
+            /* border: 3px solid #73AD21; */
+    }
+    
+    
+    
+    
+    .div3 {
+    
+    
+        position: relative;
+        top: 10%;
+        left: 0px;
+        width: 100%;
+        height: 150%;
+        background-color: #dbd5c8;
+        text-align: center
+    }
+    
+    .div3-1 {
+    
+    
+        position: relative;
+    
+        top: 0;
+        left: 0px;
+        width: 25%;
+        height: 10%;
+        background-color: #dbd5c8;
+        text-align: center
+    }
+    
+    .div3-1-1 {
+    
+        position: relative;
+        color: #000000;
+        font-size: 25px;
+        top: -50px;
+        font-family: 'aorell';
+        right: 5%;
+        text-align: center
+    }
+    
+    
+    
+    
+    .home {
+        color: #000000;
+    
+    
+        position: relative;
+        text-decoration: none;
+        float: left;
+    
+        top: 5px;
+        left: 170%;
+        font-size: 15px;
+        display: grid;
+        font-family: "lato";
+        font-weight: 399;
+    
+        /* height: 100vh; */
+        place-items: center;
+    
+    }
+    
+    
+    .home:hover {
+        color: #000000;
+        font-weight: 900;
+    }
+    
+    .home:active {
+        color: #000000;
+        font-weight: 900
+    }
+    
+    .serve pre {
+        color: #1d1c1a;
+        position: relative;
+        text-decoration: none;
+        float: left;
+        opacity: 1;
+        top:10px;
+        left: 145%;
+        font-size: 15px;
+        display: grid;
+        font-family: "lato";
+    
+        font-weight: 399;
+        /* height: 100vh; */
+        place-items: center;
+    
+    }
+    
+    .serve :hover {
+        color: #000000;
+        font-weight: 900;
+    }
+    
+    
+    .shop {
+        color: #000000;
+        position: relative;
+        text-decoration: none;
+        float: left;
+    
+        top: 30px;
+        left: 180%;
+        font-size: 15px;
+        display: grid;
+        font-family: "lato";
+    
+        font-weight: 399;
+        /* height: 100vh; */
+        place-items: center;
+    
+    
+    }
+    
+    .shop:hover {
+        color: #000000;
+        font-weight: 900;
+    }
+    
+    
+    .work {
+        color: #1d1c1a;
+    
+        position: relative;
+        text-decoration: none;
+        float: left;
+    
+        top: 50px;
+        left: 160%;
+        font-size: 15px;
+        display: grid;
+        font-family: "lato";
+    
+        font-weight: 399;
+        /* height: 100vh; */
+        place-items: center;
+    
+    
+    }
+    
+    .work:hover {
+        color: #000000;
+        font-weight: 900;
+    }
+    
+    
+    
+    .prof {
+        color: #1d1c1a;
+    
+        position: relative;
+        text-decoration: none;
+        float: left;
+    
+        top: 80px;
+        left: 170%;
+        font-size: 15px;
+        display: grid;
+        font-family: "lato";
+    
+        font-weight: 700;
+        /* height: 100vh; */
+        place-items: center;
+    
+    
+    }
+    
+    .prof:hover {
+        color: #000000;
+        font-weight: 900;
+    }
+    
+    
+    .img1 {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        top: 49%;
+        left: 15%;
+        border: 4px solid burlywood;
+        border-radius: 100%;
+    
+    
+    }
+    
+    .pr {
+        position: absolute;
+        color: rgb(0, 0, 0);
+        font-weight: 500;
+        font-size: 12px;
+        top: 60%;
+        left: 35%;
+        font-family: "lato";
+    }
+    
+    .pen {
+    
+        position:absolute;
+        height: 30px;
+        width: 30px;
+        top: 50%;
+        left: 159%;
+    
+    
+    }
+    
+    .inputs {
+        position: relative;
+    }
+    
+    
+    
+    
+    
+    .fname{
+    
+        width: 75%;
+        height: 48px;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: #dbd5c8;
+        position: absolute;
+        TOP: -850px;
+        left: 15%;
+    
+        font-size: 120%;
+    }
+    
+    
+    
+    
+    
+    .lname{
+    
+        width: 75%;
+        height: 48px;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: #dbd5c8;
+        position: absolute;
+        TOP: -650px;
+        left: 15%;
+    
+        font-size: 120%;
+    }
+    
+    
+    
+    input[type=email],
+    select {
+    
+        width: 75%;
+        height: 48px;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: #dbd5c8;
+        position: absolute;
+        TOP: -450px;
+        left: 15%;
+    
+        font-size: 120%;
+    }
+    
+    input[type=number],
+    select {
+    
+        width: 75%;
+        height: 48px;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: #dbd5c8;
+        position: absolute;
+        TOP: -250px;
+        left: 15%;
+    
+        font-size: 120%;
+    }
+    
+    input[type=password],
+    select {
+        width: 75%;
+        height: 48px;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: #dbd5c8;
+        position: absolute;
+        TOP: -50px;
+        left: 15%;
+    
+        font-size: 120%;
+    }
+    
+    
+
+    
+    
+    .save {
+       
+        width: 75%;
+        height: 48px;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: #dbd5c8;
+        position: absolute;
+        TOP: 80px;
+        left: 15%;
+        border-radius: 70px 70px 70px 70px;
+        font-size: 120%;
+       
+      }
+      
+      .save:hover {
+      
+        background-color: #c3c0b8;
+       
+      }
+    .fn{
+        position: absolute;
+        TOP: -940px;
+        left: 16%;
+    }
+    
+    .ln{
+        position: absolute;
+        TOP: -740px;
+        left: 16%;
+    }
+    .ph{
+        position: absolute;
+        TOP: -285px;
+        left: 16%;
+    }
+    .pas{
+        position: absolute;
+        TOP: -100px;
+        left: 16%;
+    }
+    
+    
+    .em{
+        position: absolute;
+        TOP: -500px;
+        left: 16%;
+    }
+    
+    
+    .txt{
+        position: absolute;
+        font-family: "LATO";
+        font-size: 15px;
+            opacity: 0.6;
+            TOP: 65%;
+            left: 25%;
+    }
+}
+

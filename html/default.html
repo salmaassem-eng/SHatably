@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/default.css">
+    <script src="jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home </title>
+    <link rel="icon" href="../images/sh.png">
+    <meta name="description" content="SHATABLY The Faster You Fill Up, The Faster Your Job Done">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+
+<body>
+        <div class="loader" id="load">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="shadow"></span>
+            <span class="shadow"></span>
+            <span class="shadow"></span>
+
+         </div>
+
+
+    <div>
+
+        <div class="div1">
+            <!-- TEXT NO.1 -->
+            <div class="div1-1">
+                ELEGANCE <br>
+                AND <br>
+                SPEED WORK
+            </div>
+
+            <!-- TEXT NO.2 -->
+            <div class="div1-2">
+
+                Our services are characterized by perfection,<br>
+                speed and elegance, com lete browsing the <br>
+                site and choose what suits you
+            </div>
+
+            <div class="a4">
+                04 <hr>
+            </div>
+
+            <!-- round bottons -->
+           
+            <a href="service1.html"><button class="div1-3">&gt;</button></a>
+            <button class="div1-4">&lt;</button>
+
+           <a href="contact-us.html"><p class="contact">CONTACTS</p></a> 
+
+        </div>
+
+        <div class="div2">
+            <a href="follow.html"><p class="follow">FOLLOW US</p></a>
+            
+        </div>
+
+
+        <div class="img2">
+            <video src="../images/home5.mp4" class="vid" poster="../images/home1.jpg"  id="my-video"  onloadstart="this.volume=0.3"></video>
+         
+            <button class="videoo" id="play-pause-btn"> <i  style="font-size:19px" class="fa fa-play"></i></button>
+        </div>
+
+        <div class="divimg">
+            <img src="../images/home2.jpg" alt="Italian Trulli" class="divimg">
+        </div>
+
+
+
+        
+        <!-- دا الكود بتاع الزرار لما تضغط عليه يغير الصوره  -->
+
+        <!-- الjsتحت -->
+        <!-- <img id="myImage" src="../imges/1.jpg">  <<<<<-----هنا الصوره الاساسيه 
+
+<button onclick="prevImage()">الصورة السابقة</button>
+<button onclick="nextImage()">الصورة التالية</button> -->
+    </div>
+
+
+
+    <div class="div3"> 
+        <div class="div3-1">
+            <div class="div3-1-1">
+                <p>Shatably</p>
+            </div>
+
+
+            <div class="div3-2">
+                <button onclick="toggleMenu()" id="menuButton">MENU</button>
+                <div id="side-menu">
+                    <a href="default.html" style="color: rgb(143, 143, 143);">HOME</a>
+                    <a href="service1.html">OUR SERVICES</a>
+                    <a href="shop.html">SHOP</a>
+                    <a href="workers.html">WORKERS</a>
+                    <a href="profile.html">PROFILE</a>
+                    <a href="login.html">LOG OUT</a>
+                </div>
+            
+                <a href="default.html" class="home">H O M E</a>
+                <a href="service1.html" class="serve"><pre>O U R  S E R V I C E</pre></a>
+                <a href="shop.html" class="shop">S H O P</a>
+                <a href="workers.html" class="work">W O R K E R S</a>
+                <a href="profile.html" class="prof">P R O F I L E</a>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script>
+
+
+const video = document.getElementById("my-video");
+
+video.addEventListener("timeupdate", () => {
+  
+    video.classList.add("small"); // Add the "small" class to the video element
+  
+});
+
+video.addEventListener("pause", () => {
+    
+  video.classList.remove("small");
+   // Remove the "small" class from the video element
+});
+
+
+
+
+const playPauseBtn = document.getElementById("play-pause-btn");
+
+function togglePlayPause() {
+  if (video.paused) {
+    video.play();
+    
+   
+  } else {
+    video.pause();
+    
+    
+  }
+}
+
+playPauseBtn.addEventListener("click", togglePlayPause);
+
+
+
+
+      function toggleMenu() {
+            var menu = document.getElementById("side-menu");
+            if (menu.style.right === "0px") {
+                menu.style.right = "-300px"; 
+            } else {
+                menu.style.right = "0px"; 
+            }
+        }
+      
+       
+
+
+
+       $(document).ready(
+        function(){
+           
+            setTimeout(function(){
+                 $("#load").hide();
+    console.log("Executed after 2second");
+}, 2000);
+
+        })
+    </script>
+</body>
+
+</html>

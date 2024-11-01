@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/shop.css">
+    <meta name="shop" content=" SHatably shop page chose your tool">
+    <title>SHOP</title>
+    <link rel="icon" href="../images/cart.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+      body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        font-family: "lato";
+      }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+
+   
+    <div class="back">
+        
+            
+        <div class="div3">
+            <div class="div3-1">
+                <div class="div3-1-1">
+                    <p>Shatably</p>
+                </div>
+
+
+                <div class="div3-2">
+                    <button onclick="toggleMenu()" id="menuButton">MENU</button>
+                    <div id="side-menu">
+                        <a href="default.html" >HOME</a>
+                        <a href="service1.html">OUR SERVICES</a>
+                        <a href="shop.html">SHOP</a>
+                        <a href="workers.html">WORKERS</a>
+                        <a href="profile.html">PROFILE</a>
+                        <a href="login.html">LOG OUT</a>
+                    </div>
+
+                    <a href="default.html" class="home">H O M E</a>
+                    <a href="service1.html" class="serve"><pre>O U R  S E R V I C E</pre></a>
+                    <a href="shop.html" class="shop">S H O P</a>
+                    <a href="workers.html" class="work">W O R K E R S</a>
+                    <a href="profile.html" class="prof">P R O F I L E</a>
+
+
+                </div>
+
+            </div>
+        </div>
+    
+
+                <div class="txtN1" style="font-family: 'oarell' ;">
+                    SHATABLY
+                </div>
+                <div class="imgN1">
+                    <a href="###" class="imgN1" > <img src="../images/cart.png" alt="cart shop" style="width:42px;height:42px;"></a>
+                </div>
+
+
+
+                <div class="pow">
+                    <img src="../images/power.png" alt=""  class="imgpow"> 
+
+                    <div class="powtextN1">
+                        P O W E R <br>
+                        P A C K A G E
+                    </div>
+                    <div class="powtextN2">
+                    Helps you in al  POWERS <br>
+                    work
+                    </div>
+
+                    <span id="counter4" class="cnt">15$</span>
+                    <button class="order" onclick="location.href='order.html';">O R D E R</button>
+                     
+                </div>
+
+                <div class="paint">
+                    <img src="../images/paint.png" alt="" class="imgpaint"> 
+
+
+
+                    <div class="painttextN1">
+                        P A I N T I N G <br>
+                        P A C K A G E
+                    </div>
+                    <div class="painttextN2">
+                    Helps you in all PAINTING <br>
+                    work
+                    </div>
+                    <span id="counter3"  class="cnt">25$</span>
+                    <button class="order" onclick="location.href='order.html';">O R D E R</button>
+                     
+                </div>
+
+                <div class="plum">
+                    <img src="../images/plam.png" alt="" class="imgplum"> 
+
+                
+                    <div class="plumtextN1">
+                        P L U M B I N G <br>
+                        P A C K A G E
+                    </div>
+                    <div class="plumtextN2">
+                        Helps you in all PLUMBING <br>
+                        work
+                        </div>
+                    <span id="counter2" class="cnt1">20$</span>
+                    <button class="order" onclick="location.href='order.html';">O R D E R</button>
+                     
+                </div>
+
+
+
+
+    <div class="black">
+
+        <div class="num">
+            <p class="one">1</p>
+            <p class="two">2</p>
+            <p class="three">3</p>
+            <p class="four">4</p>
+        </div>
+        <div class="txtblack">
+            <pre>C H O O S E  Y O U R
+               <br> T O O L S</pre>
+
+        </div>
+
+        
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+        <div class="circle5"></div>
+       
+        <button class="next" onclick="location.href='order.html';">N E X T</button>
+        
+        <div class="carp" >
+                <img src="../images/carp.png" alt="" class="imgcarp" >  
+
+                <div class="carptextN1">
+                    C A R P E N T E R Y <br>
+                    P A C K A G E
+                </div>
+                <div class="carptextN2">
+                    Helps you in all  CARPENTERY <br>
+                    work
+                </div>
+                <span id="counter1" class="cnt4">30$</span>
+                <button class="order" onclick="location.href='order.html';">O R D E R</button>
+                
+        </div>
+
+        <a href="workers.html"><button class="div1-3">&gt;</button></a>
+        <a href="service1.html"><button class="div1-4">&lt;</button></a>
+
+        <div class="follow">
+            <a href="follow.html"><p class="follow">FOLLOW US</p></a>
+        </div>
+
+    </div>
+
+
+    <div class="contact">
+        <a href="contact-us.html" class="contact" >CONTACTS</a>
+    </div>
+
+    
+    
+    
+
+
+
+
+    </div>
+</div>
+
+
+
+<script>
+    let counter1 = 0; // تعيين العداد إلى القيمة الافتراضية 0
+    let counter2 = 0;
+    let counter3 = 0;
+    let counter4 = 0;
+    function increment1() {
+      counter1++; // زيادة العداد بمقدار 1
+      document.getElementById("counter1").innerHTML = "X"+counter1; 
+    }
+
+    function decrement1() {
+      counter1--; // نقصان العداد بمقدار 1
+     if(counter1<=0)
+     {
+        counter1=0
+     }
+      document.getElementById("counter1").innerHTML ="X"+counter1; 
+
+    }
+
+
+      function increment2() {
+      counter2++; // زيادة العداد بمقدار 1
+      document.getElementById("counter2").innerHTML = "X"+counter2; // تحديث عداد الصفحة
+    }
+
+    function decrement2() {
+      counter2--; // نقصان العداد بمقدار 1
+      if(counter2<=0)
+     {
+        counter2=0
+     }
+      document.getElementById("counter2").innerHTML = "X"+counter2; // تحديث عداد الصفحة
+    }
+    
+
+    function increment3() {
+      counter3++; // زيادة العداد بمقدار 1
+      document.getElementById("counter3").innerHTML = "X"+counter3; // تحديث عداد الصفحة
+    }
+
+    function decrement3() {
+      counter3--; // نقصان العداد بمقدار 1
+      if(counter3<=0)
+     {
+        counter3=0
+     }
+      document.getElementById("counter3").innerHTML = "X"+counter3; // تحديث عداد الصفحة
+    }
+
+
+    function increment4() {
+      counter4++; // زيادة العداد بمقدار 1
+      document.getElementById("counter4").innerHTML = "X"+counter4; // تحديث عداد الصفحة
+    }
+
+    function decrement4() {
+      counter4--; // نقصان العداد بمقدار 1
+      if(counter4=0)
+     {
+        counter4<=0
+     }
+      document.getElementById("counter4").innerHTML = "X"+counter4; // تحديث عداد الصفحة
+    }
+
+    function toggleMenu() {
+            var menu = document.getElementById("side-menu");
+            if (menu.style.right === "0px") {
+                menu.style.right = "-300px"; 
+            } else {
+                menu.style.right = "0px"; 
+            }
+        }
+</script>
+</body>
+</html>

@@ -1,0 +1,379 @@
+.div1 {
+    background-color: rgb(191 189 184);
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 55%;
+    height: 100%;
+    border-radius: 50px 0px 0px 50px;
+    text-align: center
+        /* border: 3px solid #73AD21; */
+}
+
+.div1-1 {
+    font-size: 38px;
+    position: relative;
+    top: 7%;
+    color: #3f3d39;
+    font-family: "lato";
+    font-weight: 700;
+}
+
+.div1-2 {
+    font-size: 15px;
+    position: relative;
+    top: 8%;
+    color: #3f3d39;
+    opacity: 70%;
+    font-family: "lato";
+
+}
+
+.div1-3 {
+    position: relative;
+    top: 14%;
+    padding: 5px;
+    max-width: 250%;
+    max-height: 250%;
+    
+}
+
+.div1-3 img{
+    width: 62%;
+    height: 60%;
+}
+
+
+
+
+.div2{
+
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 45%;
+    height: 100%;
+    text-align: center
+
+}
+.div2-1
+{
+    position: relative;
+    color: #8f7777;
+    opacity: 0.5;
+    font-size: 25px;
+    top: 6.4%;
+    font-family: 'aorell', metafontsy;
+}
+
+.div2-2{
+
+    position: relative;
+    color:#1d1c1a;
+    font-size: 30px;
+    left: -2%;
+    top: 17%;
+    font-family:'aorell', metafontsy;
+}
+
+.div2-3{
+
+    position: relative;
+    color:#3f3d39;
+    font-size:15px ;
+    top: 21%;
+    font-family: "lato";
+    opacity: 70%;
+}
+
+.div3{
+    position: relative;
+    top: 27%;
+}
+
+input[type=password], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color:rgba(206 206 206 /0.5);
+    }
+
+input[type=email], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color:rgba(206 206 206/0.5);
+    }
+    input[type=emai]:focus {
+        background-color: rgb(206, 206, 206);
+    }
+    input[type=password]:focus {
+        background-color: rgb(206, 206, 206);
+    } 
+
+.div3-3
+{
+    position: relative;
+    left: -15%;
+    
+}
+
+.div3-4
+{
+    position: relative;
+    top: -40px;
+    left:40% ;
+
+}
+
+.div3-4:link {
+    text-decoration: none;
+    color: #1d1c1a;
+}
+
+.div3-4:visited {
+    text-decoration: none;
+    color: #1d1c1a ;
+
+}
+
+.div3-4:hover {
+    text-decoration: none;
+    text-shadow: 2px 4px 4px rgba(47, 48, 48, 0.6);
+        color: #1d1c1a ;
+    
+}
+
+.div3-4:active {
+    text-decoration: underline;
+    color: #1d1c1a ;
+}
+
+
+/* ------------------------------------------ */
+
+.div3-5 {
+  
+    position: relative;
+    top: 26px;
+    right: 60px;
+    border-radius: 0px 70px 0px 70px;
+    font-size: 20px;
+    font-family: "lato";
+    transition-duration: 0.4s;
+  
+  }
+  
+  .div3-5 {
+    background-color: #6d6a64;
+    border:#6d6a64;
+    color: white;
+    height: 60px;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .div3-5:hover {
+    background-color:rgb(136, 135, 135);
+    border:rgb(136, 135, 135) ;
+    color: white;}
+
+
+/* ------------------------------------------ */
+/* ===================================================== */
+/* .div3-5:link, .div3-5:visited {
+    background-color: rgb(74 71 71);
+    color: white;
+    padding: 20px 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+    
+.div3-5:hover, .div3-5:active {
+    background-color: rgb(136, 135, 135);
+    }
+
+.div3-5
+{
+    position: relative;
+    top: 26px;
+    right: 60px;
+    border-radius: 0px 70px 0px 70px;
+    font-size: 20px;
+    font-family: "lato";
+    font-weight: bolder;
+
+} */
+/* ======================================================== */
+.div3-6:link {
+    background-color: white;
+    color: black;
+    
+    border: 1px solid gray;
+    padding: 15px 83px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .div3-6:hover {
+    background-color: rgb(192, 189, 189);
+    color: white;
+  }
+
+.div3-6
+{
+    position: relative;
+    top: 40px;
+    right: 0px;
+    border-radius: 5px 5px 5px 5px;
+    color: black;
+    font-size: 18px;
+    font-family: "lato";
+    transition-duration: 0.4s;
+    display: inline-block;
+    width: 178px;
+    height: 25px;
+    font-weight: 700;
+    
+}
+
+.div3-6 span{
+    top: -6px;
+    position: relative;
+    left: 6px;
+}
+
+.div3_7{
+
+    position: relative;
+    top: 50px;
+    left:-10px ;
+    color: #3f3d39;
+    opacity: 70%;
+    font-family: "lato";
+}
+
+
+
+
+.div3-9:link {
+    color: rgb(0, 0, 0);
+    }
+    
+    /* visited link */
+    .div3-9:visited {
+    color: rgb(0, 0, 0);
+    }
+    
+    /* mouse over link */
+    .div3-9:hover {
+    color: rgb(0, 0, 0);
+    }
+    
+    /* selected link */
+    .div3-9:active {
+    color: rgb(0, 0, 0);
+    }
+.div3-8{
+    position: relative;
+    top: 30px;
+    left:15%;
+    color: #6d6a64;
+    
+    font-family: "lato";
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+
+    input[type=password], select {
+        width: 75%;
+        right: 20%;
+        position: inherit;
+    }
+
+    input[type=email], select {
+            width: 75%;
+            right: 20%;
+            position: inherit;
+    }
+
+    .div3-3{
+        left: -25%;
+    }
+    .div3-4{
+        top: -16px;
+    left: 20%;
+    }
+
+    .div3-5{
+        left:0px;
+        width: 90%;
+    }
+
+    .div3-6{
+        width: 40%;
+    }
+
+    .div3-6 span{
+        font-size: 13px;
+    }
+    .div3-8{
+        left: 30%;
+       }
+}
+
+
+
+@media screen and (max-width:400px) {
+    .div1{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        height: 60%;
+    }
+
+    .div2{
+        top: 60%;
+        width: 100%;
+        height: 50%;
+    }
+
+   .div2-2{
+        top: 13%;
+    }
+
+    input[type=password], select {
+        width: 85%;
+    }
+
+    input[type=email], select {
+        width: 85%;
+    
+    }
+
+    .div3-4{
+        top: -15px;
+        left: 27%;
+    }
+
+    .div3-5{
+        left: 0%;
+    }
+
+   .div3-8{
+    left: 27%;
+   }
+    
+}  

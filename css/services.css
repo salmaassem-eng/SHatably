@@ -1,0 +1,621 @@
+.allpage{
+    
+    
+    position: fixed;
+    top: 0;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #6d6a64;
+    text-align: center
+}
+
+::selection{
+    color: #D1bb84;
+  }
+  
+.div3 {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    text-align: center
+}
+
+.div3-1 {
+   position: fixed;
+    top: 0;
+    left: 0px;
+    width: 25%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    text-align: center
+}
+
+.div3-1-1 {
+    position: relative;
+    color: #000000;
+    font-size: 23px;
+    top: -5px;
+    font-family: 'aorell';
+    right: 15%;
+    text-align: center
+}
+/*
+#side-menu {
+    position: fixed;
+
+    right: -250px;
+    /* start offscreen 
+    width: 250px;
+    height: 100%;
+    bottom: -10%;
+    background-color: #333;
+    transition: all 0.5s ease-in-out;
+    /* animate the transition 
+    padding: 00%;
+}
+
+#side-menu a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+#menu.open {
+    transform: translateX(0px);
+}
+*/
+#menuButton {
+    position: fixed;
+    right: 0;
+    background-color: rgb(191 189 184);
+    color: #ffffff;
+    border: 2px solid rgb(191 189 184);
+    float: right;
+    height: 10%;
+    width: 11%;
+    top: 0%;
+    text-align: center;
+
+}
+
+#menuButton:hover {
+    background-color: rgb(191 189 184);
+    opacity: 50%;
+}
+
+#side-menu {
+    position: fixed;
+    right: -100%;
+    /* start offscreen */
+    width: 11%;
+    height: 40%;
+    bottom: 50%;
+    background-color: #ffffff;
+    opacity: 1;
+    transition: all 0.7s ease-in-out;
+    /* animate the transition */
+    padding: 0%;
+  }
+  
+  #side-menu a {
+    display: block;
+    color: #1d1c1a;
+    font-family: "lato";
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    text-shadow: 2px 4px 4px rgba(47, 48, 48, 0.2);
+  }
+  
+  #side-menu a:hover{
+    text-shadow: 2px 4px 4px rgba(47, 48, 48, 0.6)
+  }
+  
+  #menu.open {
+    transform: translateX(0px);
+  } 
+  
+  
+
+.home {
+    color: #1d1c1a;
+    
+    opacity: 0.6;
+    position: relative;
+    text-decoration: none;
+    float: left;
+
+    top: -50px;
+    left: 115%;
+    font-size: 15px;
+    display: grid;
+    font-family: "lato";
+    font-weight: 399;
+
+    /* height: 100vh; */
+    place-items: center;
+
+}
+
+
+.home:hover {
+    color: #000000;
+    font-weight: 900;
+    text-shadow: 2px 4px 4px rgba(47, 48, 48, 0.6)
+}
+
+.home:active{
+    color: #000000;
+    font-weight: 900
+  } 
+
+.serve pre {
+    color: #000000;
+    position: relative;
+    text-decoration: none;
+    float: left;
+
+    top: -64px;
+    left: 135%;
+    font-size: 15px;
+    display: grid;
+    font-family: "lato";
+
+    font-weight: 900;
+    /* height: 100vh; */
+    place-items: center;
+
+}
+
+.serve pre:hover{
+    text-shadow: 2px 4px 4px rgba(47, 48, 48, 0.6)
+}
+.shop {
+    color: #1d1c1a;
+    opacity: 0.6;
+    position: relative;
+    text-decoration: none;
+    float: left;
+
+    top: -50px;
+    left: 155%;
+    font-size: 15px;
+    display: grid;
+    font-family: "lato";
+
+    font-weight: 399;
+    /* height: 100vh; */
+    place-items: center;
+
+
+}
+
+.shop:hover{
+    color: #000000;
+    font-weight: 900;
+    text-shadow: 2px 4px 4px rgba(47, 48, 48, 0.6)
+}
+
+
+.work {
+    color: #1d1c1a;
+    opacity: 0.6;
+    position: relative;
+    text-decoration: none;
+    float: left;
+
+    top: -50px;
+    left: 180%;
+    font-size: 15px;
+    display: grid;
+    font-family: "lato";
+
+    font-weight: 399;
+    /* height: 100vh; */
+    place-items: center;
+
+
+}
+
+.work:hover{
+     color: #000000;
+     font-weight: 900;
+     text-shadow: 2px 4px 4px rgba(47, 48, 48, 0.6)
+}
+
+.prof{
+    color: #1d1c1a;
+    opacity: 0.6;
+    position: relative;
+    text-decoration: none;
+    float: left;
+  
+    top: -68px;
+    left: 242%;;
+    font-size: 15px;
+    display: grid;
+    font-family: "lato";
+  
+    font-weight: 399;
+    /* height: 100vh; */
+    place-items: center;
+  }
+  
+  .prof:hover{
+    color: #000000;
+    font-weight: 900;
+    text-shadow: 2px 4px 4px rgba(47, 48, 48, 0.6)
+  }
+  
+/* Presentational Styles */
+/* body {
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    height: 100vh;
+    place-items: center;
+  } */
+
+  .div1-1 {
+    font-size: 60px;
+    position: relative;
+    top: 22%;
+    color: #ffffff;
+    font-family: "lato";
+    left: 540px;
+
+    display: grid;
+    font-family: "lato";
+
+    font-weight: 550;
+    text-align: left
+}
+
+.div1-2 {
+    font-size: 20px;
+    position: relative;
+    top: 29%;
+    color: #ffffff;
+    font-family: "lato";
+    left: 540px;
+
+    display: grid;
+    font-family: "lato";
+    opacity: 50%;
+
+    text-align: left;
+}
+
+
+.a4 {
+    font-size: 70px;
+    position: relative;
+    top: 43%;
+    color: #000000;
+    font-family: "lato";
+    left: 530px;
+
+    display: grid;
+    font-family: "lato";
+    opacity: 90%;
+    font-weight: 600;
+    text-align: left;
+}
+
+hr{
+    position: absolute;
+    width: 179px;
+    top: 11%;
+    background-color: #000000;
+    left: 108px;
+  }
+
+  .div1-3 {
+    position: fixed;
+    right: 42px;
+    background-color: rgb(191 189 184);
+    color: #000000;
+    border: 2px solid rgb(191 189 184);
+    float: right;
+    height: 8%;
+    width: 3.6%;
+    top:51%;
+    text-align: center;
+    font-weight:900 ;
+    border-radius: 100%;
+    
+  }
+  
+  .div1-4 {
+    position: fixed;
+    right: 42px;
+    background-color: rgb(191 189 184);
+    color: #000000;
+    border: 2px solid rgb(191 189 184);
+    float: right;
+    height: 8%;
+    width: 3.6%;
+    top: 60%;
+    text-align: center;
+    font-weight:900 ;
+    border-radius: 100%;
+    
+  }
+  
+  .div1-3:hover{
+    background-color: rgb(191 189 184);
+    border: 2px solid rgb(191 189 184);
+    opacity: 50%;
+  }
+  
+  .div1-4:hover{
+    background-color: rgb(191 189 184);
+    border: 2px solid rgb(191 189 184);
+    opacity: 50%;
+  }
+  
+#myImage {
+    width: 380px;
+    height: 480px;
+    position: absolute;
+    top: 17%;
+    left: 75px;
+    border-radius: 160px 0px 160px 0px;
+}
+
+.follow{
+    position: fixed;
+    left: 75px;
+    color: white;
+    font-weight: 550;
+    float: right;
+    font-family: "lato";
+    top: 90%;
+}
+
+.contact{
+    position: fixed;
+    right: 42px;
+    color: #1d1c1a;
+    font-weight: 900;
+    float: right;
+    font-family: "lato";
+    top: 90%;
+}
+.button1{
+    position: fixed;
+    left: 540px;
+    background-color: rgb(235 235 235);
+    color: #000000;
+    border: 2px solid rgb(235 235 235) ;
+    float: right;
+    height: 8%;
+    width: 4%;
+    top: 82%;
+    text-align: center;
+    font-weight:900 ;
+    border-radius: 100%;
+    opacity: 50%;
+}
+
+.button2{
+    position: fixed;
+    left: 620px;
+    background-color: rgb(235 235 235);
+    color: #000000;
+    border: 2px solid rgb(235 235 235);
+    float: right;
+    height: 8%;
+    width: 4%;
+    top: 82%;
+    text-align: center;
+    font-weight:900 ;
+    border-radius: 100%;
+    opacity: 50%;
+}
+
+.button2:hover{
+    background-color: rgb(191 189 184);
+    border: 2px solid rgb(191 189 184);
+    opacity: 50%;
+  }
+  
+  .button1:hover{
+    background-color: rgb(191 189 184);
+    border: 2px solid rgb(191 189 184);
+    opacity: 50%;
+  }
+
+@media screen and ( max-width:768px) {
+
+    .home{
+        left: 90%;
+    }
+
+    .serve pre{
+        left: 105%;
+    }
+
+    .shop{
+        top: -98px;
+    left: 216%;
+    }
+
+    .work{
+        top: -98px;
+    left: 229%;
+    }
+
+    .prof{
+        top: -115px;
+        left: 313%;
+    }
+
+
+.div1-1{
+    
+    font-size: 40px;
+    left: 42%;
+
+}
+
+.div1-2{
+    left: 42%;
+    position: absolute;
+    top: 40%;
+}
+
+.a4{
+    left: 42%;
+}
+
+.div1-3{
+    right: 2%;
+    width: 6%;
+}
+
+.div1-4{
+    right: 2%;
+    width: 6%;
+}
+
+#myImage {
+    left: 0%;
+    width: 40%;
+    height: 60%;
+}
+
+.button1{
+    left: 40%;
+    top: 71%;
+    width: 7%
+}
+
+.button2{
+    left: 49%;
+    top: 71%;
+    width: 7%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and ( max-width:400px) {
+    .div1-1{
+        left: 61%;
+        font-size: 23px;
+        top: 24%;
+    }
+
+    .div1-2{
+        left: 61%;
+        top: 36%;
+        font-size: 20px;
+        position: absolute;
+    }
+
+    .a4{
+        left: 59%;
+        font-size: 50px;
+        top: 56%;
+    }
+
+    hr{
+        width: 90px;
+    left: 16%;
+    }
+    .button1{
+        left: 1%;
+        top: 73%;
+        width: 14%;
+    }
+
+    .button2{
+        left: 18%;
+        top: 73%;
+        width: 14%;
+    }
+
+    .div1-3{
+        top: 74%;
+    right: 2%;
+    width: 14%;
+    }
+
+    .div1-4{
+        top: 83%;
+        right: 2%;
+        width: 14%;
+    }
+
+    .div3{
+        height: 20%;
+    }
+
+    #myImage{
+        width: 60%;
+    height: 50%;
+    left: 0px;
+    top: 21%;
+    }
+
+    .div3-1-1{
+        left: 75%;
+    position: absolute;
+    font-size: 27px;
+    }
+
+    #menuButton{
+        width: 30%;
+        border-radius: 4px;
+    }
+
+    .home{
+        top: 108px;
+        left: 1%;
+        font-size: 12px;
+    }
+
+    .serve pre{
+        top: 95px;
+        position: absolute;
+        left: 60%;
+        font-size: 12px;
+    }
+
+    .shop{
+        left: 133%;
+        top: 108px;
+        font-size: 12px;
+    }
+
+    .work{
+        top: 93px;
+        left: 235%;
+        font-size: 12px;
+    }
+
+    .prof{
+        top: 79px;
+        left: 321%;
+        font-size: 12px;
+    }
+}
